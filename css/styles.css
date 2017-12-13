@@ -1,0 +1,14 @@
+.cone {
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-top: 200px solid #ffd60b;
+}
+
+.scoop {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: pink;
+}

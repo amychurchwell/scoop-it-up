@@ -1,0 +1,32 @@
+// Color Variables //
+
+$blue: #4ECDC4;
+$yellow: #FFE66D;
+$pink: #ED6A5E;
+
+$colors: (
+'blue': $blue,
+'yellow': $yellow,
+'pink': $pink,
+)
+
+.cone {
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-top: 200px solid $yellow;
+}
+
+.scoop {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: $blue;
+}
+
+button {
+  background-color: $blue;
+  color: #fff;
+  text-transform: uppercase;
+}
